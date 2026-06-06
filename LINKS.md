@@ -51,3 +51,18 @@ In Kodi: **Settings → File manager → Add source →** paste `https://HOST/` 
 - **APKs + 89/90 MB bundles** → GitHub **Releases**.
 - Point `index.html` links at the Release asset URLs, and make **aftv.news** codes for the
   two APKs.
+
+## Live links (created 2026-06-06)
+
+**Repo:** https://github.com/mrgutierrezmario/kodi-addons
+**Download page (GitHub Pages):** https://mrgutierrezmario.github.io/kodi-addons/
+
+| What | TinyURL (works in Downloader) | aftv.news code (fill in) |
+|------|-------------------------------|--------------------------|
+| Download page | https://tinyurl.com/24egu874 | ____________ |
+| The Crew APK | https://tinyurl.com/28jmvga9 | ____________ |
+| WatchNixtoons2 APK | https://tinyurl.com/2bnj7mcl | ____________ |
+| Master bundle | https://tinyurl.com/24lc8sdt | ____________ |
+
+For aftv.news codes: go to https://aftv.news/, paste the GitHub Pages / Release URL,
+get the 6-digit code, type it in Downloader.
