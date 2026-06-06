@@ -66,3 +66,12 @@ In Kodi: **Settings → File manager → Add source →** paste `https://HOST/` 
 
 For aftv.news codes: go to https://aftv.news/, paste the GitHub Pages / Release URL,
 get the 6-digit code, type it in Downloader.
+
+## xxx (added 2026-06-06)
+
+| What | TinyURL | aftv.news code (fill in) |
+|------|---------|--------------------------|
+| xxx APK | https://tinyurl.com/2xhn4bsx | ____________ |
+| xxx install bundle | https://tinyurl.com/2xvdrj8h | ____________ |
+
+(App labelled "xxx", solid black icon. Add-on zips served from the Pages site root.)
