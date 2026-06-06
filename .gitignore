@@ -1,0 +1,5 @@
+# Big binaries → host on GitHub Releases, not in the repo (100 MB file cap; keeps repo lean)
+*.apk
+kodi-addons-master.zip
+thecrew-install-bundle.zip
+watchnixtoons2-install-bundle.zip

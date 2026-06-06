@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kodi Add-ons — Downloads</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         background:#0d0d12; color:#e6e6ec; margin:0; padding:24px; line-height:1.5; }
+  .wrap { max-width: 820px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin:.2em 0; }
+  h2 { font-size: 1.15rem; margin:1.6em 0 .4em; color:#c9b6ff; border-bottom:1px solid #2a2a35; padding-bottom:4px; }
+  p.note { color:#9a9aa7; font-size:.92rem; }
+  a.dl { display:flex; justify-content:space-between; align-items:center; gap:12px;
+         background:#16161e; border:1px solid #2a2a35; border-radius:10px;
+         padding:12px 16px; margin:8px 0; text-decoration:none; color:#e6e6ec; }
+  a.dl:hover { border-color:#7c5cff; background:#1c1c27; }
+  a.dl .name { font-weight:600; word-break:break-all; }
+  a.dl .meta { color:#9a9aa7; font-size:.85rem; white-space:nowrap; }
+  .tag { font-size:.7rem; padding:2px 8px; border-radius:999px; background:#2a2440; color:#c9b6ff; margin-left:8px; }
+  .tag.tv { background:#243a2a; color:#9be3a8; }
+  code { background:#22222c; padding:1px 6px; border-radius:5px; font-size:.88rem; }
+  .small { font-size:.85rem; color:#9a9aa7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>📺 Kodi Add-ons — Downloads</h1>
+  <p class="note">Tap a file to download. On a <b>Fire TV</b>, open the <b>Downloader</b> app and enter this
+  page's URL (or a short code) to browse and grab files. The Crew &amp; WatchNixtoons2 need
+  <b>Kodi 19.4+</b> and <b>internet on the first install</b>.</p>
+
+  <h2>📱 Apps (sideload these APKs)</h2>
+  <a class="dl" href="thecrew-2.0.6-release.apk">
+    <span class="name">The Crew <span class="tag">v2.0.6</span><span class="tag tv">Fire TV / phone</span></span>
+    <span class="meta">APK · 30 MB</span></a>
+  <a class="dl" href="watchnixtoons2-0.14.18-release.apk">
+    <span class="name">WatchNixtoons2 <span class="tag">v0.14.18</span><span class="tag tv">Fire TV / phone</span></span>
+    <span class="meta">APK · 0.5 MB</span></a>
+  <p class="small">After install, open the app once. On Android 11+ / Fire OS 8 it stages the
+  add-on zips into <code>Download</code> and shows the steps (it can't auto-install there).</p>
+
+  <h2>📦 Full bundles (APK + zips + step-by-step guides)</h2>
+  <a class="dl" href="kodi-addons-master.zip">
+    <span class="name">Master bundle — both add-ons</span>
+    <span class="meta">ZIP · 90 MB</span></a>
+  <a class="dl" href="thecrew-install-bundle.zip">
+    <span class="name">The Crew — install bundle</span>
+    <span class="meta">ZIP · 89 MB</span></a>
+  <a class="dl" href="watchnixtoons2-install-bundle.zip">
+    <span class="name">WatchNixtoons2 — install bundle</span>
+    <span class="meta">ZIP · 1.6 MB</span></a>
+
+  <h2>🧩 The Crew — individual add-on zips (Kodi: Install from zip, in this order)</h2>
+  <a class="dl" href="script.module.thecrew.zip"><span class="name">1 · script.module.thecrew</span><span class="meta">1.6 MB</span></a>
+  <a class="dl" href="script.thecrew.artwork.zip"><span class="name">2 · script.thecrew.artwork</span><span class="meta">21 MB</span></a>
+  <a class="dl" href="script.module.resolveurl-5.1.202.zip"><span class="name">3 · script.module.resolveurl <span class="tag">required</span></span><span class="meta">1.0 MB</span></a>
+  <a class="dl" href="repository.thecrew.zip"><span class="name">4 · repository.thecrew</span><span class="meta">2.9 MB</span></a>
+  <a class="dl" href="plugin.video.thecrew.zip"><span class="name">5 · plugin.video.thecrew</span><span class="meta">3.1 MB</span></a>
+  <p class="small"><b>resolveurl is the stream resolver and is NOT in Kodi's official repo</b> — install it
+  (step 3) before the plugin or the install fails with "dependency 0.0.0 could not be satisfied".</p>
+
+  <h2>🧩 WatchNixtoons2 — add-on zip (Kodi: Install from zip)</h2>
+  <a class="dl" href="plugin.video.watchnixtoons2.zip"><span class="name">plugin.video.watchnixtoons2</span><span class="meta">0.5 MB</span></a>
+
+  <h2>🛠️ Dev builds (debug APKs — ignore unless told)</h2>
+  <a class="dl" href="thecrew-2.0.6-debug.apk"><span class="name">The Crew — debug</span><span class="meta">APK · 30 MB</span></a>
+  <a class="dl" href="watchnixtoons2-0.14.18-debug.apk"><span class="name">WatchNixtoons2 — debug</span><span class="meta">APK · 0.5 MB</span></a>
+
+  <p class="note" style="margin-top:2em">These are open-source Kodi add-ons. They scrape third-party sites;
+  the authors host no content. Use at your own risk.</p>
+
+</div>
+</body>
+</html>
